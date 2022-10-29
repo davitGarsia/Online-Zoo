@@ -34,6 +34,8 @@ body {
   --Rad: #d31414;
   --bacgkround-color: #000;
   --text-color: #333b41;
+  --btn-orange: #fe9013;
+  --orange-background: #fff4e6;
 }
 
 .header {
@@ -102,7 +104,7 @@ body {
 
 .main-nav-link:hover {
   color: var(--Orange);
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .about a {
@@ -115,25 +117,30 @@ body {
   position: relative;
 }
 
+.new-container {
+  width: 30%;
+  height: 25%;
+}
+
 .ball {
-  width: 465px;
-  height: 465px;
+  width: 29%;
+  height: 55%;
   background-color: var(--Orange);
   border-radius: 50%;
   position: absolute;
-  transform: translate(750px, -700px);
+  transform: translate(180%, -175%);
 }
 
 .text {
-  width: 400px;
-  height: 400px;
-  margin-left: 150px;
-  margin-top: 50px;
+  width: 30%;
+  height: 40%;
+  margin-left: 30%;
+  margin-top: 14%;
 }
 
 .watch {
   color: var(--main-text-color);
-  font-size: 8.4rem;
+  font-size: 800%;
 }
 
 .fav {
@@ -142,10 +149,10 @@ body {
 
 .btn {
   display: inline-block;
-  width: 298px;
-  height: 54px;
+  width: 180%;
+  height: 30%;
   background-color: var(--Orange);
-  margin-top: 50px;
+  margin-top: 30%;
   border: none;
   border-radius: 25px;
   color: var(--main-text-color);
@@ -154,7 +161,7 @@ body {
   border: none;
   cursor: pointer;
   font-family: inherit;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .btn:hover {
@@ -177,7 +184,7 @@ body {
 
 .title {
   width: 50%;
-  font-size: 3.6rem;
+  font-size: 350%;
   color: var(--text-color);
   margin-bottom: 3%;
 }
@@ -191,15 +198,17 @@ body {
 }
 
 .how {
-  font-size: 2.2rem;
+  font-size: 220%;
   color: var(--text-color);
   margin-bottom: 3%;
 }
 
 .how-it-works {
-  font-size: 1.8rem;
+  font-size: 150%;
   width: 70%;
+  height: 28%;
   line-height: 1.3;
+  overflow: auto;
 }
 
 .flower {
@@ -209,10 +218,17 @@ body {
 
 .gallery {
   display: grid;
-  width: 75%;
+  width: 80%;
+  justify-content: space-around;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 30px;
-  margin-left: 23rem;
+  margin-left: 12%;
+}
+
+.wrapper {
+  width: 90%;
+  height: 88%;
+  border: 2px solid var(--Orange);
+  border-radius: 5px;
 }
 
 .gallery-item {
@@ -221,8 +237,9 @@ body {
 
 .gallery-item img {
   display: block;
-  width: 75%;
+  width: 100%;
   transition: all 0.4s;
+  border-radius: 5px 5px 0 0;
 }
 
 .gallery-item img:hover {
@@ -230,9 +247,197 @@ body {
 }
 
 .animal {
-  margin-top: 1rem;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-top: 4%;
 }
 
 .native {
-  margin-bottom: 5rem;
+  margin-bottom: 10%;
+  margin-left: 2%;
+}
+
+.food {
+  width: 8%;
+  height: 8%;
+  transform: translate(1080%, -180%);
+}
+
+.choose {
+  display: flex;
+}
+
+.choose-btn {
+  margin: auto;
+  width: 15%;
+  height: 40px;
+  margin-bottom: 5%;
+  display: inline-block;
+  background-color: var(--btn-orange);
+  border: none;
+  border-radius: 25px;
+  color: var(--main-text-color);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.4s;
+}
+
+.choose-btn:hover {
+  background-color: var(--darker-orange);
+}
+
+.choose-btn:active {
+  background-color: var(--Green);
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 3%;
+  height: 3%;
+  border-radius: 100%;
+  border: none;
+  background-color: var(--btn-orange);
+  cursor: pointer;
+}
+
+.back {
+  transform: translate(200%, -1520%);
+}
+
+.right {
+  transform: translate(-130%, -1520%);
+}
+
+.arrow:hover {
+  background-color: var(--darker-orange);
+}
+
+.arrow:active {
+  background-color: var(--Green);
+}
+
+.arr {
+  width: 50%;
+  height: 38px;
+  transform: translate(0, 5%);
+}
+
+.pictures {
+  margin-top: -27%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.palm {
+  transform: translate(-27%, 10%);
+}
+
+.sterilzia {
+  margin-top: 10%;
+  transform: translate(0, 15%);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.feed {
+  background: linear-gradient(#febdab, #fed290);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.feed-container {
+  margin: auto;
+  margin-bottom: auto;
+  width: 65%;
+  height: 650px;
+  background-color: var(--orange-background);
+  border-radius: 10px;
+}
+
+.pick {
+  font-size: 250%;
+  margin-left: 37%;
+  color: var(--darker-orange);
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.animals {
+  font-size: 140%;
+  margin-left: 5%;
+  padding-bottom: 3%;
+}
+
+.sub-p {
+  margin-left: 5%;
+  padding-bottom: 3%;
+  font-weight: 600;
+  font-size: 120%;
+}
+
+.para {
+  width: 70%;
+  margin-left: 5%;
+  font-weight: 600;
+  font-size: 120%;
+  font-weight: 400;
+  line-height: 1.3;
+  padding-bottom: 5%;
+}
+
+.works {
+  font-size: 200%;
+  font-weight: 700;
+  padding-bottom: 3%;
+  margin-left: 45%;
+  color: var(--bacgkround-color);
+}
+
+.picnbackg {
+  background-color: var(--Frosted_glass_white);
+  width: 25%;
+  height: 140px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 6.5%;
+  border: 1.5px solid var(--darker-orange);
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgb(150, 147, 147);
+}
+
+.sec {
+  transform: translate(0, -20px);
+}
+
+.third {
+  transform: translate(-10px, -10px);
+}
+
+.vector-arrow {
+  width: 10%;
+  height: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-top: 8%;
+}
+
+.paragraph-1 {
+  padding-top: 55%;
+}
+.paragraph-2 {
+  padding-top: 20%;
+}
+.paragraph-3 {
+  padding-top: 35%;
 }
