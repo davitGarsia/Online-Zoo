@@ -85,6 +85,7 @@ body {
 }
 
 .main-nav-list {
+  max-width: 1600px;
   list-style-type: none;
   display: flex;
   gap: 5%;
@@ -177,6 +178,7 @@ body {
 }
 
 .backstage-container {
+  max-width: 1600px;
   display: flex;
   gap: 5%;
   position: relative;
@@ -359,38 +361,38 @@ body {
 .feed-container {
   margin: auto;
   margin-bottom: auto;
-  width: 65%;
-  height: 650px;
+  width: 75%;
+  height: 835px;
   background-color: var(--orange-background);
   border-radius: 10px;
 }
 
 .pick {
-  font-size: 250%;
+  font-size: 260%;
   margin-left: 37%;
   color: var(--darker-orange);
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .animals {
-  font-size: 140%;
+  font-size: 180%;
   margin-left: 5%;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
 }
 
 .sub-p {
   margin-left: 5%;
   padding-bottom: 3%;
   font-weight: 600;
-  font-size: 120%;
+  font-size: 140%;
 }
 
 .para {
   width: 70%;
   margin-left: 5%;
   font-weight: 600;
-  font-size: 120%;
+  font-size: 140%;
   font-weight: 400;
   line-height: 1.3;
   padding-bottom: 5%;
@@ -399,7 +401,7 @@ body {
 .works {
   font-size: 200%;
   font-weight: 700;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   margin-left: 45%;
   color: var(--bacgkround-color);
 }
@@ -433,13 +435,41 @@ body {
 }
 
 .paragraph-1 {
+  font-size: 120%;
   padding-top: 55%;
 }
 .paragraph-2 {
+  font-size: 120%;
   padding-top: 20%;
 }
 .paragraph-3 {
+  font-size: 120%;
   padding-top: 35%;
+}
+
+.feed-btn {
+  margin-top: 15%;
+  margin-left: 39%;
+  width: 20%;
+  height: 50px;
+  display: inline-block;
+  background-color: var(--btn-orange);
+  border: none;
+  border-radius: 25px;
+  color: var(--main-text-color);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.4s;
+}
+
+.feed-btn:hover {
+  background-color: var(--darker-orange);
+}
+
+.feed-btn:active {
+  background-color: var(--Green);
 }
 
 .testi-container {
@@ -559,6 +589,7 @@ body {
   height: 443px;
   background-color: var(--bacgkround-color);
   position: relative;
+  display: flex;
 }
 
 .flex-one {
@@ -621,7 +652,7 @@ body {
 .donate-for {
   display: inline-block;
   width: 12%;
-  height: 35px;
+  height: 10%;
   background-color: var(--Orange);
   margin-top: 161px;
   margin-left: 14.9%;
@@ -633,6 +664,8 @@ body {
   cursor: pointer;
   font-family: inherit;
   transition: all 0.4s;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .donate-for:hover {
@@ -641,4 +674,39 @@ body {
 
 .donate-for:active {
   background-color: var(--Green);
+}
+
+.nav-footer {
+  transform: translate(12%, -59px);
+}
+
+.flex-three {
+  transform: translate(66%, -600%);
+}
+
+.subscribe {
+  color: var(--main-text-color);
+  font-size: 200%;
+  font-weight: 300;
+  transform: translate(0, -10px);
+}
+
+.email {
+  display: flex;
+}
+
+.gmail {
+  border: 1px solid var(--btn-orange);
+  width: 228px;
+  height: 42px;
+  border-radius: 5px;
+}
+
+.mail-btn {
+  width: 129px;
+  height: 44px;
+  background-color: var(--Frosted_glass_white);
+  color: var(--Green);
+  margin-left: 10px;
+  border-radius: 5px;
 }
