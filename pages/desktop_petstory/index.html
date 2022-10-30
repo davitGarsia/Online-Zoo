@@ -13,20 +13,21 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Online Zoo</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="section--1">
       <div class="container">
         <a class="logo-link" href="#">
-          <div class="logo-container">
+          <div class="logo-container" id="#section--1">
             <h1 class="petstory">PetStory online</h1>
             <img class="bamboo" src="../../assets/icons/bamboo.png" />
           </div>
         </a>
         <nav class="main-nav">
           <ul class="main-nav-list">
-            <li class="about"><a class="main-nav-link" href="#">About</a></li>
+            <li class="main-nav-link about"><a class="main-nav-link" href="#section--1">About</a></li>
             <li><a class="main-nav-link" href="#">Map</a></li>
             <li><a class="main-nav-link" href="#">Zoos</a></li>
             <li><a class="main-nav-link" href="#">Donate</a></li>
@@ -103,8 +104,10 @@
           <div class="wrapper">
             <figure class="gallery-item">
               <img src="../../assets/images/pandas.png" />
+
               <h3 class="animal">GIANT PANDAS</h3>
               <p class="native">Native toSouthwest China</p>
+
             </figure>
             <img
               class="food"
@@ -226,7 +229,9 @@
           <p class="para">
             Even though the zoo has reopened, we need you now more than ever to
             help us deal with these problems. Please consider a gift to our
-            Emergency Support Fund.
+            <a class="fund" href="#">
+             Emergecy Support Fund
+            </a>
           </p>
           <p class="works">How it works</p>
 
@@ -493,10 +498,10 @@
           </div>
         </div>
 
-        <div class="flex-two">
+         <div class="flex-two">
           <nav class="main-nav nav-footer">
             <ul class="main-nav-list">
-              <li class="about"><a class="main-nav-link" href="#">About</a></li>
+              <li class="about"><a class="main-nav-link" href="#section--1">About</a></li>
               <li><a class="main-nav-link" href="#">Map</a></li>
               <li><a class="main-nav-link" href="#">Zoos</a></li>
               <li><a class="main-nav-link" href="#">Donate</a></li>
@@ -510,13 +515,14 @@
           <div class="email">
             <form class="mail">
               <label for="email"></label>
-              <input type="email" id="email" name="email" class="gmail" type="email" placeholder="Enter your email">
+              <input type="email" id="email" name="email" class="gmail" type="email" placeholder="Enter your email" required>
             </form>
-            <button class="mail-btn" type="button">Submit</button>
+            <button class="mail-btn allow" type="button">Submit</button>
 
           </div>
         </div>
-
     </footer>
+  </body>
+</html>
   </body>
 </html>

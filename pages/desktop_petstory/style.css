@@ -85,7 +85,7 @@ body {
 }
 
 .main-nav-list {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   list-style-type: none;
   display: flex;
   gap: 5%;
@@ -111,6 +111,10 @@ body {
 
 .about a {
   color: var(--Orange);
+}
+
+.abt a {
+  color: white;
 }
 
 .big-panda {
@@ -233,6 +237,10 @@ body {
   border-radius: 5px;
 }
 
+.wrapper:hover {
+  background-color: #000000d1;
+}
+
 .gallery-item {
   overflow: hidden;
 }
@@ -252,11 +260,21 @@ body {
   margin-top: 2%;
   margin-left: 2%;
   margin-top: 4%;
+  font-size: 16px;
+}
+
+.animal:hover {
+  color: var(--main-text-color);
 }
 
 .native {
   margin-bottom: 10%;
   margin-left: 2%;
+  font-size: 12px;
+}
+
+.native:hover {
+  color: var(--main-text-color);
 }
 
 .food {
@@ -267,6 +285,13 @@ body {
 
 .choose {
   display: flex;
+}
+
+.fund {
+  text-decoration: underline 1px;
+  text-underline-offset: 5px;
+  text-decoration-color: var(--Orange);
+  color: rgb(30, 29, 29);
 }
 
 .choose-btn {
@@ -361,8 +386,8 @@ body {
 .feed-container {
   margin: auto;
   margin-bottom: auto;
-  width: 75%;
-  height: 835px;
+  width: 70%;
+  height: 820px;
   background-color: var(--orange-background);
   border-radius: 10px;
 }
@@ -677,11 +702,13 @@ body {
 }
 
 .nav-footer {
-  transform: translate(12%, -59px);
+  width: 1000px;
+  transform: translate(30%, -52px);
 }
 
 .flex-three {
-  transform: translate(66%, -600%);
+  width: 350px;
+  transform: translate(1050px, -580%);
 }
 
 .subscribe {
@@ -709,4 +736,22 @@ body {
   color: var(--Green);
   margin-left: 10px;
   border-radius: 5px;
+  font-weight: 500;
+  border: 1px solid #000;
+}
+
+.gmail:invalid {
+  border: 1px solid red;
+}
+
+.gmail:valid {
+  border: 2px solid green;
+}
+
+.mail-btn:active {
+  border: 1px solid var(green);
+}
+
+.allow {
+  cursor: not-allowed;
 }
