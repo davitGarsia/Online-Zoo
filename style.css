@@ -275,7 +275,7 @@ body {
   height: 72%;
   justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 17%;
+  margin-left: 13.5%;
   gap: 20px;
 }
 
@@ -392,11 +392,11 @@ body {
 }
 
 .back {
-  transform: translate(270%, -900%);
+  transform: translate(180%, -880%);
 }
 
 .right {
-  transform: translate(-320%, -900%);
+  transform: translate(-380%, -890%);
 }
 
 .arrow:hover {
