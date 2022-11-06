@@ -6,16 +6,15 @@ const logo = document.querySelector('.logo-container');
 const mail = document.querySelector('.gmail');
 
 nav.addEventListener('click', e => {
-  e.preventDefault();
   about.classList.add('abt');
 });
 
-about.addEventListener('click', function (e) {
-  e.preventDefault();
-  section1.scrollIntoView({ behavior: 'smooth' });
-});
+// about.addEventListener('click', function (e) {
+//   e.preventDefault();
+//   section1.scrollIntoView({ behavior: 'smooth' });
+// });
 
-logo.addEventListener('click', function (e) {
-  e.preventDefault();
-  section1.scrollIntoView({ behavior: 'smooth' });
-});
+// logo.addEventListener('click', function (e) {
+//   e.preventDefault();
+//   section1.scrollIntoView({ behavior: 'smooth' });
+// });
