@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  max-width: 100%;
   height: 80px;
   background-color: var(--bacgkround-color);
   position: relative;
@@ -270,11 +270,11 @@ body {
 
 .gallery {
   display: grid;
-  width: 64%;
+  width: 80%;
   height: 72%;
   justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 13.5%;
+  margin-left: 7%;
   gap: 20px;
 }
 
@@ -391,11 +391,11 @@ body {
 }
 
 .back {
-  transform: translate(180%, -880%);
+  transform: translate(50%, -1070%);
 }
 
 .right {
-  transform: translate(-380%, -890%);
+  transform: translate(-190%, -1070%);
 }
 
 .arrow:hover {
@@ -582,10 +582,10 @@ body {
 .testi-container {
   display: flex;
   justify-content: space-around;
-  gap: 25px;
+  gap: 5px;
 
-  margin-left: 12%;
-  margin-right: 11%;
+  margin-left: 13%;
+  margin-right: 13%;
 }
 
 .picname {
@@ -595,10 +595,10 @@ body {
 }
 
 .testi {
-  margin-left: 45%;
+  margin-left: 43.5%;
   padding-top: 7%;
   padding-bottom: 4%;
-  font-size: 250%;
+  font-size: 36px;
 }
 
 .origin {
