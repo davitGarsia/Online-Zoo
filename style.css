@@ -265,8 +265,7 @@ body {
 }
 
 .flower {
-  position: absolute;
-  transform: translate(-75%, -17%);
+  transform: translate(5px, -80px);
 }
 
 .gallery {
@@ -421,7 +420,7 @@ body {
 
 .palm {
   height: 460px;
-  transform: translate(-47%, 13.5%);
+  transform: translate(-50%, 13.5%);
 }
 
 .sterilzia {
@@ -695,7 +694,7 @@ body {
   width: 11%;
   position: absolute;
   margin-left: 56.58%;
-  transform: translate(40.4%, -25%);
+  transform: translate(-20%, -25%);
 }
 
 .footer {
